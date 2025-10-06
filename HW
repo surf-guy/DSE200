@@ -7,7 +7,7 @@
         "colab_type": "text"
       },
       "source": [
-        "<a href=\"https://colab.research.google.com/github/surf-guy/DSE200/blob/main/HW/HW_1.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+        "<a href=\"https://colab.research.google.com/github/surf-guy/DSE200/blob/main/HW\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
       ]
     },
     {
@@ -112,28 +112,49 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 5,
       "metadata": {
-        "id": "do9xFYLz5zj-"
+        "id": "do9xFYLz5zj-",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "10fadb00-edf8-425e-8333-32416feb804b"
       },
-      "outputs": [],
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Value of my_int =  5\n",
+            "Data type of my_int =  <class 'int'>\n",
+            "Value of my_float =  1.5\n",
+            "Data type of my_float =  <class 'float'>\n",
+            "Value of my_int =  1.5\n",
+            "Data type of my_int =  <class 'float'>\n",
+            "Value of my_float =  5\n",
+            "Data type of my_float =  <class 'int'>\n"
+          ]
+        }
+      ],
       "source": [
         "# COMPLETE THE CELL BELOW\n",
         "\n",
-        "my_int =\n",
-        "my_float =\n",
+        "my_int = 5\n",
+        "my_float = 1.5\n",
         "\n",
-        "print (\"Value of my_int = \", )\n",
-        "print (\"Data type of my_int = \", )\n",
-        "print (\"Value of my_float = \", )\n",
-        "print (\"Data type of my_float = \", )\n",
+        "print (\"Value of my_int = \", my_int )\n",
+        "print (\"Data type of my_int = \", type(my_int))\n",
+        "print (\"Value of my_float = \", my_float)\n",
+        "print (\"Data type of my_float = \", type(my_float))\n",
         "\n",
         "# Swap the variables\n",
+        "my_int = 1.5\n",
+        "my_float = 5\n",
         "\n",
-        "print (\"Value of my_int = \", )\n",
-        "print (\"Data type of my_int = \", )\n",
-        "print (\"Value of my_float = \", )\n",
-        "print (\"Data type of my_float = \", )"
+        "print (\"Value of my_int = \", my_int )\n",
+        "print (\"Data type of my_int = \", type(my_int))\n",
+        "print (\"Value of my_float = \", my_float)\n",
+        "print (\"Data type of my_float = \", type(my_float))"
       ]
     },
     {
